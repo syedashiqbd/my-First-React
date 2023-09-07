@@ -17,13 +17,6 @@ function App() {
       {actors.map(actor =><Actor name={actor}></Actor>)}
     </div>
     
-    // <div className="App">
-    //   <header className="App-header">
-    //     <h1>Syed Ashiqur Rahman</h1>
-    //     <Person></Person>
-    //     <Actor name={'Person'}></Actor>
-    //   </header>
-    // </div>
   );
 }
 function Person() {
